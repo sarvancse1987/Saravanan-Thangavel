@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSAPI", "CMSAPI\CMSAPI.csproj", "{07D38072-DA95-49DC-8732-59F8143FD2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{AC63544B-7312-4824-B5E9-EFEBCA16C3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{7AC57502-2A61-4AE9-A353-EE583D9C89D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSGUI", "CMSGUI\CMSGUI.csproj", "{D868A457-8A90-473D-8B24-7B18143F60CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{CD5A6C51-4855-4E7B-8AD7-C86E6774D839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D38072-DA95-49DC-8732-59F8143FD2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D38072-DA95-49DC-8732-59F8143FD2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D38072-DA95-49DC-8732-59F8143FD2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D38072-DA95-49DC-8732-59F8143FD2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC63544B-7312-4824-B5E9-EFEBCA16C3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC63544B-7312-4824-B5E9-EFEBCA16C3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC63544B-7312-4824-B5E9-EFEBCA16C3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC63544B-7312-4824-B5E9-EFEBCA16C3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC57502-2A61-4AE9-A353-EE583D9C89D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC57502-2A61-4AE9-A353-EE583D9C89D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC57502-2A61-4AE9-A353-EE583D9C89D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC57502-2A61-4AE9-A353-EE583D9C89D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D868A457-8A90-473D-8B24-7B18143F60CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D868A457-8A90-473D-8B24-7B18143F60CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D868A457-8A90-473D-8B24-7B18143F60CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D868A457-8A90-473D-8B24-7B18143F60CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5A6C51-4855-4E7B-8AD7-C86E6774D839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5A6C51-4855-4E7B-8AD7-C86E6774D839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5A6C51-4855-4E7B-8AD7-C86E6774D839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5A6C51-4855-4E7B-8AD7-C86E6774D839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D836600-73DF-41CF-94FD-4A847F286101}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sarvancse1987.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BAL\\BAL.csproj
+		SccProjectName1 = BAL
+		SccLocalPath1 = BAL
+		SccProjectUniqueName2 = CMSAPI\\CMSAPI.csproj
+		SccProjectName2 = CMSAPI
+		SccLocalPath2 = CMSAPI
+		SccProjectUniqueName3 = CMSGUI\\CMSGUI.csproj
+		SccProjectName3 = CMSGUI
+		SccLocalPath3 = CMSGUI
+		SccProjectUniqueName4 = DAL\\DAL.csproj
+		SccProjectName4 = DAL
+		SccLocalPath4 = DAL
+		SccProjectUniqueName5 = DTO\\DTO.csproj
+		SccProjectName5 = DTO
+		SccLocalPath5 = DTO
+	EndGlobalSection
+EndGlobal
