@@ -1,6 +1,7 @@
 [TestMethod]
 public async Task CreateDeliveryMethodConfigAsync_GivenValidDeliveryMethodWriteModelForSFTPScheduledDelivery_ShouldPersist()
 {
+    // Arrange
     var deliveryMethodWriteModelList = new List<DeliveryMethodWriteModel> {
         new DeliveryMethodWriteModel
         {
@@ -19,8 +20,11 @@ public async Task CreateDeliveryMethodConfigAsync_GivenValidDeliveryMethodWriteM
             EmailConfig = new EmailConfig(),
             SftpConfig = new SftpConfig
             {
-                IsScheduledDelivery = true,
-                ScheduledSubFolder = "xsfsdf/dsff/sdafdsf"
+                IsScheduledDelivery = false,  // Set IsScheduledDelivery to false to trigger validation
+                Path = null,  // These fields will be empty to trigger validation errors
+                Port = null,
+                Username = null,
+                Password = null
             },
             Deliverables = new List<Deliverable>
             {
@@ -61,23 +65,43 @@ public async Task CreateDeliveryMethodConfigAsync_GivenValidDeliveryMethodWriteM
                 },
                 ExcludedDays = new List<Exos.ClientManagementApi.Models.Constants.WeekdaysEnum>
                 {
-                 Exos.ClientManagementApi.Models.Constants.WeekdaysEnum.Saturday,
-                 Exos.ClientManagementApi.Models.Constants.WeekdaysEnum.Sunday
+                    Exos.ClientManagementApi.Models.Constants.WeekdaysEnum.Saturday,
+                    Exos.ClientManagementApi.Models.Constants.WeekdaysEnum.Sunday
                 }
             }
         }
     };
+
+    // Create a new delivery method with a unique name
     DeliveryMethodWriteModel writeModel = deliveryMethodWriteModelList[0];
     writeModel.DeliveryName = Guid.NewGuid().ToString().Substring(0, 15);
 
-    /*Act*/
+    // Act
+    // First, validate the SftpConfig fields manually before calling the controller action
+    var validationResults = new List<ValidationResult>();
+    var validationContext = new ValidationContext(writeModel.SftpConfig);  // Validate the SftpConfig directly
+    var isValid = Validator.TryValidateObject(writeModel.SftpConfig, validationContext, validationResults, true);
+
+    // Now proceed with the actual API call
     var actionResult = await _deliveryMethodController.CreateDeliveryMethodConfigAsync(writeModel).ConfigureAwait(false);
     OkObjectResult okResult = actionResult.Result as OkObjectResult;
     DeliveryMethodViewModel persisted = okResult.Value as DeliveryMethodViewModel;
 
-    /*Assert*/
+    // Assert that the API call worked as expected
     Assert.IsNotNull(persisted);
     Assert.AreEqual(writeModel.DeliveryName, persisted.DeliveryName);
+
+    // Assert the validation results
+    Assert.IsFalse(isValid, "Validation should fail because required fields are missing.");
+    Assert.AreEqual(4, validationResults.Count, "There should be four validation errors for missing fields.");
+
+    // Assert specific validation error messages
+    Assert.IsTrue(validationResults.Any(vr => vr.ErrorMessage == "Path is required when IsScheduledDelivery is false."));
+    Assert.IsTrue(validationResults.Any(vr => vr.ErrorMessage == "Port is required when IsScheduledDelivery is false."));
+    Assert.IsTrue(validationResults.Any(vr => vr.ErrorMessage == "Username is required when IsScheduledDelivery is false."));
+    Assert.IsTrue(validationResults.Any(vr => vr.ErrorMessage == "Password is required when IsScheduledDelivery is false."));
+
+    // Cleanup
     this._cleanup.Add(new CleanupContext
     {
         Id = persisted.Id,
