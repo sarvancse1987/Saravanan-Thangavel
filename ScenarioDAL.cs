@@ -1,67 +1,86 @@
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-public class SftpConfig : IValidatableObject
-{
-    /// <summary>
-    /// Gets or sets Path.
-    /// </summary>
-    [Required(ErrorMessage = "Path cannot be empty.")]
-    public string Path { get; set; }
-
-    /// <summary>
-    /// Gets or sets Port.
-    /// </summary>
-    [Required(ErrorMessage = "Port number cannot be empty.")]
-    public string Port { get; set; }
-
-    /// <summary>
-    /// Gets or sets Username.
-    /// </summary>
-    [Required(ErrorMessage = "Username cannot be empty.")]
-    public string Username { get; set; }
-
-    /// <summary>
-    /// Gets or sets Password.
-    /// </summary>
-    [Required(ErrorMessage = "Password cannot be empty.")]
-    [Encrypted]
-    public string Password { get; set; }
-
-    /// <summary>
-    /// Gets or sets Key Value Reference.
-    /// </summary>
-    public bool IsSftpKeyvaultRef { get; set; }
-
-    /// <summary>
-    /// Gets or sets Is Scheduled Delivery.
-    /// </summary>
-    public bool IsScheduledDelivery { get; set; }
-
-    /// <summary>
-    /// Gets or sets Scheduled Sub Folder.
-    /// </summary>
-    public string ScheduledSubFolder { get; set; }
-
-    /// <summary>
-    /// Custom validation logic for conditional checks.
-    /// </summary>
-    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
-    {
-        // Skip `[Required]` validation when `IsScheduledDelivery` is true.
-        if (IsScheduledDelivery)
+[TestMethod]
+        public async Task CreateDeliveryMethodConfigAsync_GivenValidDeliveryMethodWriteModelForSFTPScheduledDelivery_ShouldPersist()
         {
-            yield break;
-        }
+            var deliveryMethodWriteModelList = new List<DeliveryMethodWriteModel> {
+                new DeliveryMethodWriteModel
+                {
+                    ClientId = 2,
+                    SubClientId = 100,
+                    DeliveryName = "Delivbery by inbuilt model",
+                    ProductGroupId = 7,
+                    ExcludedProductIds = new List<int>
+                    {
+                        701, 102
+                    },
+                    IsBulkOrderDelivery = false,
+                    DeliveryMethodTypeCode = "Sftp",
+                    DeliveryMethodTypeId = 2,
+                    IsMergeNeeded = true,
+                    EmailConfig = new EmailConfig(),
+                    SftpConfig = new SftpConfig
+                    {
+                        IsScheduledDelivery = true,
+                        ScheduledSubFolder = "xsfsdf/dsff/sdafdsf"
+                    },
+                    Deliverables = new List<Deliverable>
+                    {
+                        new Deliverable
+                        {
+                            DocumentTypeCode = "Document type code goes here",
+                            DocumentTypeName = "Document type code goes here",
+                            IsMergeDocument = true,
+                            DocumentName = "Merged Document -1",
+                            DocumentsToMerge = new List<DocumentToMerge>
+                            {
+                                new DocumentToMerge
+                                {
+                                    DocumentTypeCode = "Merged document type code goes here",
+                                    DocumentTypeName = "Merged document type code goes here",
+                                    Sequence = 1
+                                }
+                            }
+                        },
+                        new Deliverable
+                        {
+                            DocumentTypeCode = "Document type code goes here - 2",
+                            DocumentTypeName = "Document type code goes here - 2",
+                            IsMergeDocument = false,
+                            DocumentName = "Non Merged Document",
+                            DocumentsToMerge = new List<DocumentToMerge>
+                            {
+                                new DocumentToMerge()
+                            }
+                        }
+                    },
+                    DeliveryTimeFrame = Exos.ClientManagementApi.Models.Constants.DeliveryTimeFrame.Specific,
+                    DeliverySchedule = new DeliverySchedule
+                    {
+                        DeliveryTimes = new List<string>
+                        {
+                            "2.30 pm"
+                        },
+                        ExcludedDays = new List<Exos.ClientManagementApi.Models.Constants.WeekdaysEnum>
+                        {
+                         Exos.ClientManagementApi.Models.Constants.WeekdaysEnum.Saturday,
+                         Exos.ClientManagementApi.Models.Constants.WeekdaysEnum.Sunday
+                        }
+                    }
+                }
+            };
+            DeliveryMethodWriteModel writeModel = deliveryMethodWriteModelList[0];
+            writeModel.DeliveryName = Guid.NewGuid().ToString().Substring(0, 15);
 
-        // Validate required properties using existing attributes.
-        var results = new List<ValidationResult>();
-        if (!Validator.TryValidateObject(this, validationContext, results, validateAllProperties: true))
-        {
-            foreach (var result in results)
+            /*Act*/
+            var actionResult = await _deliveryMethodController.CreateDeliveryMethodConfigAsync(writeModel).ConfigureAwait(false);
+            OkObjectResult okResult = actionResult.Result as OkObjectResult;
+            DeliveryMethodViewModel persisted = okResult.Value as DeliveryMethodViewModel;
+
+            /*Assert*/
+            Assert.IsNotNull(persisted);
+            Assert.AreEqual(writeModel.DeliveryName, persisted.DeliveryName);
+            this._cleanup.Add(new CleanupContext
             {
-                yield return result;
-            }
+                Id = persisted.Id,
+                KeyValue = writeModel.ClientId
+            });
         }
-    }
-}
