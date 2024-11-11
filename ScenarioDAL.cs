@@ -1,43 +1,38 @@
-using Microsoft.Azure.Cosmos;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-public class CosmosDbService
+public class SftpConfig
 {
-    private readonly Container _container;
+    /// <summary>
+    /// Gets or sets Path.
+    /// </summary>
+    public string Path { get; set; }
 
-    public CosmosDbService(CosmosClient client, string databaseId, string containerId)
-    {
-        _container = client.GetContainer(databaseId, containerId);
-    }
+    /// <summary>
+    /// Gets or sets Port.
+    /// </summary>
+    public string Port { get; set; }
 
-    public async Task DeleteDocumentsByQueryAsync(string queryText, string partitionKey)
-    {
-        var queryDefinition = new QueryDefinition(queryText);
-        var queryIterator = _container.GetItemQueryIterator<dynamic>(queryDefinition);
+    /// <summary>
+    /// Gets or sets Username.
+    /// </summary>
+    public string Username { get; set; }
 
-        var documentsToDelete = new List<dynamic>();
+    /// <summary>
+    /// Gets or sets Password.
+    /// </summary>
+    [Encrypted]
+    public string Password { get; set; }
 
-        while (queryIterator.HasMoreResults)
-        {
-            var response = await queryIterator.ReadNextAsync();
-            foreach (var document in response)
-            {
-                documentsToDelete.Add(document);
-            }
-        }
+    /// <summary>
+    /// Gets or sets Key Value Reference.
+    /// </summary>
+    public bool IsSftpKeyvaultRef { get; set; }
 
-        // Delete each document
-        foreach (var doc in documentsToDelete)
-        {
-            string id = doc.id;
-            await _container.DeleteItemAsync<dynamic>(id, new PartitionKey(partitionKey));
-            Console.WriteLine($"Deleted document with ID: {id}");
-        }
-    }
+    /// <summary>
+    /// Gets or sets Is Scheduled Delivery.
+    /// </summary>
+    public bool IsScheduledDelivery { get; set; }
+
+    /// <summary>
+    /// Gets or sets Scheduled Sub Folder.
+    /// </summary>
+    public string ScheduledSubFolder { get; set; }
 }
-
-
-var query = "SELECT * FROM c WHERE c.property = 'value'";
-await cosmosDbService.DeleteDocumentsByQueryAsync(query, "your-partition-key");
