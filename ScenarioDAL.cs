@@ -1,4 +1,8 @@
-public class SftpConfig
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+public class SftpConfig : IValidatableObject
 {
     /// <summary>
     /// Gets or sets Path.
@@ -35,4 +39,30 @@ public class SftpConfig
     /// Gets or sets Scheduled Sub Folder.
     /// </summary>
     public string ScheduledSubFolder { get; set; }
+
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+        if (!IsScheduledDelivery)
+        {
+            if (string.IsNullOrWhiteSpace(Path))
+            {
+                yield return new ValidationResult("Path is required when IsScheduledDelivery is false.", new[] { nameof(Path) });
+            }
+
+            if (string.IsNullOrWhiteSpace(Port))
+            {
+                yield return new ValidationResult("Port is required when IsScheduledDelivery is false.", new[] { nameof(Port) });
+            }
+
+            if (string.IsNullOrWhiteSpace(Username))
+            {
+                yield return new ValidationResult("Username is required when IsScheduledDelivery is false.", new[] { nameof(Username) });
+            }
+
+            if (string.IsNullOrWhiteSpace(Password))
+            {
+                yield return new ValidationResult("Password is required when IsScheduledDelivery is false.", new[] { nameof(Password) });
+            }
+        }
+    }
 }
