@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
 public class SftpConfig : IValidatableObject
 {
     /// <summary>
@@ -40,33 +43,25 @@ public class SftpConfig : IValidatableObject
     /// </summary>
     public string ScheduledSubFolder { get; set; }
 
+    /// <summary>
+    /// Custom validation logic for conditional checks.
+    /// </summary>
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
-        if (!IsScheduledDelivery)
-        {
-            if (string.IsNullOrWhiteSpace(Path))
-            {
-                yield return new ValidationResult("Path is required", new[] { nameof(Path) });
-            }
-
-            if (string.IsNullOrWhiteSpace(Port))
-            {
-                yield return new ValidationResult("Port is required", new[] { nameof(Port) });
-            }
-
-            if (string.IsNullOrWhiteSpace(Username))
-            {
-                yield return new ValidationResult("Username is required", new[] { nameof(Username) });
-            }
-
-            if (string.IsNullOrWhiteSpace(Password))
-            {
-                yield return new ValidationResult("Password is required", new[] { nameof(Password) });
-            }
-        }
-        else
+        // Skip `[Required]` validation when `IsScheduledDelivery` is true.
+        if (IsScheduledDelivery)
         {
             yield break;
+        }
+
+        // Validate required properties using existing attributes.
+        var results = new List<ValidationResult>();
+        if (!Validator.TryValidateObject(this, validationContext, results, validateAllProperties: true))
+        {
+            foreach (var result in results)
+            {
+                yield return result;
+            }
         }
     }
 }
