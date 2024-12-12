@@ -1,84 +1,95 @@
-// Copyright (C) EXOS Technology, LLC, and/or an affiliate.
-// All rights reserved.
-#pragma warning disable CA1031 // Do not catch general exception types
+public class ScheduleConfig
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public List<DayOfWeek> Days { get; set; } = new();
+    public TimeSpan StartTime { get; set; }
+    public int IntervalInHours { get; set; }
+    public bool IsDisabled { get; set; }
+}
+using Dapper;
+using System.Data;
+using System.Data.SqlClient;
 
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-using CommonClientReportDeliverySvc.Services.ClientScheduledSftp;
-using Exos.Platform.AspNetCore.HealthCheck;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Extensions.Logging;
+public class ScheduleConfigRepository
+{
+    private readonly string _connectionString;
 
-namespace Exos.ClientReportDeliveryWebJob.Jobs.ClientScheduledSftp;
+    public ScheduleConfigRepository(string connectionString)
+    {
+        _connectionString = connectionString;
+    }
 
+    public async Task<List<ScheduleConfig>> GetSchedulesAsync()
+    {
+        using var connection = new SqlConnection(_connectionString);
+        var query = "SELECT * FROM ScheduleConfig WHERE IsDisabled = 0";
+        var results = await connection.QueryAsync<dynamic>(query);
+
+        return results.Select(r => new ScheduleConfig
+        {
+            Id = r.Id,
+            Name = r.Name,
+            Days = r.Days.Split(',').Select(Enum.Parse<DayOfWeek>).ToList(),
+            StartTime = TimeSpan.Parse(r.StartTime.ToString()),
+            IntervalInHours = r.IntervalInHours,
+            IsDisabled = r.IsDisabled
+        }).ToList();
+    }
+}
 public class ClientScheduledSftpWebJob
 {
     private readonly ILogger<ClientScheduledSftpWebJob> _logger;
     private readonly ClientScheduledSftpService _clientScheduledSftpService;
-    private readonly ProbesState _probesState;
+    private readonly ScheduleConfigRepository _scheduleConfigRepository;
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="ClientScheduledSftpWebJob"/> class.
-    /// </summary>
-    /// <param name="logger">The logger.</param>
-    /// <param name="clientScheduledSftpService">The service.</param>
-    /// <param name="probesState">The probes state.</param>
-    public ClientScheduledSftpWebJob(ILogger<ClientScheduledSftpWebJob> logger, ClientScheduledSftpService clientScheduledSftpService, ProbesState probesState)
+    public ClientScheduledSftpWebJob(
+        ILogger<ClientScheduledSftpWebJob> logger,
+        ClientScheduledSftpService clientScheduledSftpService,
+        ScheduleConfigRepository scheduleConfigRepository)
     {
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         _clientScheduledSftpService = clientScheduledSftpService ?? throw new ArgumentNullException(nameof(clientScheduledSftpService));
-        _probesState = probesState ?? throw new ArgumentNullException(nameof(probesState));
+        _scheduleConfigRepository = scheduleConfigRepository ?? throw new ArgumentNullException(nameof(scheduleConfigRepository));
     }
 
-    /// <summary>
-    /// ScheduledSftp Cenlar.
-    /// </summary>
-    /// <param name="timerInfo">The timer info.</param>
-    /// <param name="cancellationToken">The cancellation token.</param>
-    /// <returns>A Task.</returns>
-    [Disable("PollSettings:ScheduledSftpWebJob:Cenlar:IsDisabled")]
-    public async Task ScheduledSftpCenlar([TimerTrigger("%PollSettings:ScheduledSftpWebJob:Cenlar:Schedule%")] TimerInfo timerInfo, CancellationToken cancellationToken)
+    [FunctionName("DynamicScheduledSftp")]
+    public async Task DynamicScheduledSftp([TimerTrigger("0 */1 * * * *")] TimerInfo timerInfo, CancellationToken cancellationToken)
+    {
+        // Fetch schedules from the database
+        var schedules = await _scheduleConfigRepository.GetSchedulesAsync();
+
+        var now = DateTime.Now;
+
+        foreach (var schedule in schedules)
+        {
+            // Check if today is one of the configured days
+            if (!schedule.Days.Contains(now.DayOfWeek)) continue;
+
+            // Calculate the first execution time today
+            var todayStart = DateTime.Today.Add(schedule.StartTime);
+            if (now < todayStart) continue; // Skip if current time is before the start time
+
+            // Check if it's time to execute based on the interval
+            var timeSinceStart = now - todayStart;
+            if (timeSinceStart.TotalHours % schedule.IntervalInHours < 1)
+            {
+                // Execute the task
+                await ExecuteScheduledTask(schedule.Name, cancellationToken);
+            }
+        }
+    }
+
+    private async Task ExecuteScheduledTask(string name, CancellationToken cancellationToken)
     {
         try
         {
-            await _clientScheduledSftpService.ScheduledSftp("Cenlar", cancellationToken);
+            _logger.LogInformation($"Starting scheduled task for {name} at {DateTime.Now}");
+            await _clientScheduledSftpService.ScheduledSftp(name, cancellationToken);
         }
         catch (Exception ex)
         {
-            if (ex is OutOfMemoryException oome)
-            {
-                _probesState.Liveness = false;
-                _probesState.Readiness = false;
-            }
-
-            _logger.LogError(ex, $"{nameof(ScheduledSftpCenlar)} failed.");
-        }
-    }
-
-    /// <summary>
-    /// ScheduledSftp PennyMac.
-    /// </summary>
-    /// <param name="timerInfo">The timer info.</param>
-    /// <param name="cancellationToken">The cancellation token.</param>
-    /// <returns>A Task.</returns>
-    [Disable("PollSettings:ScheduledSftpWebJob:PennyMac:IsDisabled")]
-    public async Task ScheduledSftpPennyMac([TimerTrigger("%PollSettings:ScheduledSftpWebJob:PennyMac:Schedule%")] TimerInfo timerInfo, CancellationToken cancellationToken)
-    {
-        try
-        {
-            await _clientScheduledSftpService.ScheduledSftp("PennyMac", cancellationToken);
-        }
-        catch (Exception ex)
-        {
-            if (ex is OutOfMemoryException oome)
-            {
-                _probesState.Liveness = false;
-                _probesState.Readiness = false;
-            }
-
-            _logger.LogError(ex, $"{nameof(ScheduledSftpPennyMac)} failed.");
+            _logger.LogError(ex, $"Error occurred while executing task for {name}");
         }
     }
 }
-#pragma warning restore CA1031 // Do not catch general exception types
