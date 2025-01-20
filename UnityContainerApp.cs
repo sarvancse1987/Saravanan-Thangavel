@@ -88,3 +88,10 @@ export class ClientSftpConfigLogComponent implements OnInit, OnDestroy {
             </label>
           </td>
         </tr>
+
+
+export class PaginationModel {
+    itemsPerPage!: string;
+    page!: number;
+    fieldType!: string;
+}
