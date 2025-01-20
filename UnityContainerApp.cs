@@ -1,53 +1,8 @@
-<ng-container *ngFor="let date of getGroupedLogKeys()">
-                                <tr>
-                                    <td colspan="8" class="icon-folder-group">
-                                        <span class="icon-folder-group"></span>
-                                        <label (click)="onToggleCollapse(date)">
-                                            {{ date }} ({{ groupedLogs[date].length }} items)
-                                        </label>
-                                    </td>
-                                </tr>
-                                <tr *ngFor="let log of groupedLogs[date]; let i = index" [hidden]="log.isCollapsed">
-                                    <td>{{ log.orderId }}</td>
-                                    <td>{{ log.workOrderId }}</td>
-                                    <td>{{ log.documentType }}</td>
-                                    <td>{{ log.documentName }}</td>
-                                    <td>{{ log.subfolder }}</td>
-                                    <td>{{ log.status }}</td>
-                                    <td>
-                                        <input type="checkbox" [(ngModel)]="log.initiate" (change)="updateStatus(log)"
-                                            class="form-checkbox" [ngModelOptions]="{standalone: true}" />
-                                    </td>
-                                    <td>
-                                        <div class="gn-col-7">
-                                            <div class="more-options-drop-down">
-
-                                                <button type="button"
-                                                    class="btn btn-icon btn-icon-secondary-text dropdown-toggle more-ic-btn"
-                                                    id="docdropdownMenu_{{ i }}" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false"
-                                                    aria-label="More options">
-                                                    <span class="icon-more-options" aria-hidden="true">...</span>
-                                                </button>
-
-                                                <div class="dropdown-menu" aria-labelledby="docdropdownMenu_{{ i }}">
-                                                    <a class="dropdown-item"
-                                                        (click)="onResubmitDocument(log, $event)">Resubmit</a>
-                                                    <a class="dropdown-item" data-toggle="modal"
-                                                        data-target="#om-add-doc" (click)="getDocToEdit(log)">Track
-                                                        Error</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </ng-container>
-
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { LoggerService } from '../../services/logger/logger.service';
 import { Subscription } from 'rxjs';
 import { ClienteleService } from '../../clientele/clientele.service';
+import { LoggerService } from '../../services/logger/logger.service';
 import { PaginationModel, SftpConfigurationLogResponse } from '../admin.model';
 
 @Component({
@@ -59,20 +14,16 @@ export class ClientSftpConfigLogComponent implements OnInit, OnDestroy {
   clientSFTPConfigLogForm: FormGroup;
   subscriptions: Subscription[] = [];
   componentName: string = "Client SFTP Configuration Log";
-  selectedDocumentTypeItems: any[] = [];
-  documentTypeItems: any[] = [];
-  submitted: boolean = false;
-  isResetPagination: boolean = false;
-  rowsCount: number;
   sftpConfigurationLogs: SftpConfigurationLogResponse[] = [];
-  displayedLogs: { [key: string]: SftpConfigurationLogResponse[] } = {};
   groupedLogs: { [key: string]: SftpConfigurationLogResponse[] } = {};
+  displayedLogs: { [key: string]: SftpConfigurationLogResponse[] } = {};
+  rowsCount: number = 0;
 
   constructor(
     private fb: FormBuilder,
     private clienteleService: ClienteleService,
     private loggerService: LoggerService
-  ) { }
+  ) {}
 
   ngOnInit() {
     this.clientSFTPConfigLogForm = this.fb.group({
@@ -81,121 +32,112 @@ export class ClientSftpConfigLogComponent implements OnInit, OnDestroy {
       exosOrderID: [null, Validators.required],
       documentType: [null, Validators.required]
     });
+
     this.getSftpConfigurationLog();
   }
 
-  get f() { return this.clientSFTPConfigLogForm.controls; }
+  get f() {
+    return this.clientSFTPConfigLogForm.controls;
+  }
 
+  // Sample data and grouping by date
   getSftpConfigurationLog() {
-    // Sample data
     this.sftpConfigurationLogs = [
-      // Sample data
+      // Sample data with consistent structure
       { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 1, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
       { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 2, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
       { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 3, workOrderId: 3, documentType: 'Type3', documentName: 'Doc3', subfolder: 'Folder3', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 4, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 5, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 6, workOrderId: 3, documentType: 'Type3', documentName: 'Doc3', subfolder: 'Folder3', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 7, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 8, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 9, workOrderId: 3, documentType: 'Type3', documentName: 'Doc3', subfolder: 'Folder3', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 10, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 11, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 12, workOrderId: 3, documentType: 'Type3', documentName: 'Doc3', subfolder: 'Folder3', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 13, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 14, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 15, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 16, workOrderId: 3, documentType: 'Type3', documentName: 'Doc3', subfolder: 'Folder3', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 17, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 18, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
+      // Additional data...
     ];
 
     this.groupLogsByDate();
     this.rowsCount = this.sftpConfigurationLogs.length;
-    this.updateDisplayedLogs({ itemsPerPage: '15', page: 1, fieldType: 'page' });
+
+    // Initial pagination
+    this.updateDisplayedLogs({ itemsPerPage: '10', page: 1, fieldType: 'page' });
   }
 
+  // Group logs by date
   groupLogsByDate() {
     this.groupedLogs = this.sftpConfigurationLogs.reduce((groups, log) => {
-      const dateTime = log.jobDateTime.toISOString().replace('T', ' ').split('.')[0];
-      if (!groups[dateTime]) {
-        groups[dateTime] = [];
+      const date = log.jobDateTime.toISOString().split('T')[0]; // Extract only the date
+      if (!groups[date]) {
+        groups[date] = [];
       }
-      groups[dateTime].push(log);
+      groups[date].push(log);
       return groups;
     }, {});
   }
 
+  // Return grouped log keys for display
   getGroupedLogKeys(): string[] {
     return Object.keys(this.groupedLogs);
   }
 
+  // Toggle collapse for a date group
   onToggleCollapse(date: string) {
-    this.groupedLogs[date].forEach(log => log.isCollapsed = !log.isCollapsed);
+    this.groupedLogs[date].forEach(log => {
+      log.isCollapsed = !log.isCollapsed;
+    });
   }
 
-  updateStatus(log: SftpConfigurationLogResponse) {
-    log.status = log.initiate ? 'Initiated' : 'Created';
-  }
-
-  onDocumentTypeChange(options: any) {
-    // Implement your logic here
-  }
-
-  onFilterLog() {
-    // Implement your logic here
-  }
-
-  onInitiateDelivery() {
-    // Implement your logic here
-  }
-
-  onResubmitDocument(data: SftpConfigurationLogResponse, event: Event) {
-    // Implement your logic here
-  }
-
-  getDocToEdit(data: SftpConfigurationLogResponse) {
-    // Implement your logic here
-  }
-
-  deleteDocuments(data: SftpConfigurationLogResponse) {
-    // Implement your logic here
-  }
-
-  onEmailClick(data: SftpConfigurationLogResponse) {
-    // Implement your logic here
-  }
-
-  onPaginationChange(paginationModel: PaginationModel) {
-    console.log('Current page:', paginationModel.page);
-    this.updateDisplayedLogs(paginationModel);
-  }
-
+  // Update displayed logs based on pagination
   updateDisplayedLogs(paginationModel: PaginationModel) {
     const itemsPerPage = parseInt(paginationModel.itemsPerPage, 10);
     const startIndex = (paginationModel.page - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-  
-    // Flatten the grouped logs into a single array
-    const flattenedLogs = Object.values(this.groupedLogs).reduce((acc, val) => acc.concat(val), []);
-  
-    // Slice the flattened logs based on pagination
-    const paginatedLogs = flattenedLogs.slice(startIndex, endIndex);
-  
-    // Regroup the paginated logs by date
+
+    // Flatten grouped logs into a single array
+    const allLogs = Object.values(this.groupedLogs).reduce((acc, val) => acc.concat(val), []);
+
+    // Slice logs for the current page
+    const paginatedLogs = allLogs.slice(startIndex, endIndex);
+
+    // Regroup paginated logs by date
     this.displayedLogs = paginatedLogs.reduce((groups, log) => {
-      const dateTime = log.jobDateTime.toISOString().split('T')[0];
-      if (!groups[dateTime]) {
-        groups[dateTime] = [];
+      const date = log.jobDateTime.toISOString().split('T')[0];
+      if (!groups[date]) {
+        groups[date] = [];
       }
-      groups[dateTime].push(log);
+      groups[date].push(log);
       return groups;
     }, {});
   }
 
-  ngOnDestroy(): void {
-    this.subscriptions.forEach((subscription: Subscription) => {
-      subscription.unsubscribe();
-    });
+  // Update log status based on checkbox
+  updateStatus(log: SftpConfigurationLogResponse) {
+    log.status = log.initiate ? 'Initiated' : 'Created';
+  }
+
+  ngOnDestroy() {
+    this.subscriptions.forEach(subscription => subscription.unsubscribe());
   }
 }
+
+
+<div *ngFor="let date of getGroupedLogKeys()" class="log-group">
+    <h5 class="date-header" (click)="onToggleCollapse(date)">
+      {{ date }}
+      <button class="btn btn-link">
+        {{ groupedLogs[date][0]?.isCollapsed ? 'Expand' : 'Collapse' }}
+      </button>
+    </h5>
+
+    <div
+      *ngIf="!groupedLogs[date][0]?.isCollapsed"
+      class="log-details"
+    >
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Work Order ID</th>
+            <th>Document Type</th>
+            <th>Document Name</th>
+            <th>Subfolder</th>
+            <th>Status</th>
+            <th>Initiate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let log of groupedLogs[date]">
