@@ -1,8 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Subscription } from 'rxjs';
-import { ClienteleService } from '../../clientele/clientele.service';
-import { LoggerService } from '../../services/logger/logger.service';
 import { PaginationModel, SftpConfigurationLogResponse } from '../admin.model';
 
 @Component({
@@ -13,17 +11,11 @@ import { PaginationModel, SftpConfigurationLogResponse } from '../admin.model';
 export class ClientSftpConfigLogComponent implements OnInit, OnDestroy {
   clientSFTPConfigLogForm: FormGroup;
   subscriptions: Subscription[] = [];
-  componentName: string = "Client SFTP Configuration Log";
   sftpConfigurationLogs: SftpConfigurationLogResponse[] = [];
-  groupedLogs: { [key: string]: SftpConfigurationLogResponse[] } = {};
   displayedLogs: { [key: string]: SftpConfigurationLogResponse[] } = {};
-  rowsCount: number = 0;
+  rowsCount: number;
 
-  constructor(
-    private fb: FormBuilder,
-    private clienteleService: ClienteleService,
-    private loggerService: LoggerService
-  ) {}
+  constructor(private fb: FormBuilder) {}
 
   ngOnInit() {
     this.clientSFTPConfigLogForm = this.fb.group({
@@ -36,64 +28,29 @@ export class ClientSftpConfigLogComponent implements OnInit, OnDestroy {
     this.getSftpConfigurationLog();
   }
 
-  get f() {
-    return this.clientSFTPConfigLogForm.controls;
-  }
-
-  // Sample data and grouping by date
   getSftpConfigurationLog() {
+    // Sample data
     this.sftpConfigurationLogs = [
-      // Sample data with consistent structure
       { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 1, workOrderId: 1, documentType: 'Type1', documentName: 'Doc1', subfolder: 'Folder1', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-16T10:00:00'), orderId: 2, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
-      { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 3, workOrderId: 3, documentType: 'Type3', documentName: 'Doc3', subfolder: 'Folder3', status: 'Created', initiate: false, isCollapsed: false },
-      // Additional data...
+      { jobDateTime: new Date('2025-01-17T11:00:00'), orderId: 2, workOrderId: 2, documentType: 'Type2', documentName: 'Doc2', subfolder: 'Folder2', status: 'Created', initiate: false, isCollapsed: false },
+      // Add more sample data here
     ];
 
-    this.groupLogsByDate();
     this.rowsCount = this.sftpConfigurationLogs.length;
-
-    // Initial pagination
-    this.updateDisplayedLogs({ itemsPerPage: '10', page: 1, fieldType: 'page' });
+    this.updateDisplayedLogs({ itemsPerPage: 10, page: 1 });
   }
 
-  // Group logs by date
-  groupLogsByDate() {
-    this.groupedLogs = this.sftpConfigurationLogs.reduce((groups, log) => {
-      const date = log.jobDateTime.toISOString().split('T')[0]; // Extract only the date
-      if (!groups[date]) {
-        groups[date] = [];
-      }
-      groups[date].push(log);
-      return groups;
-    }, {});
-  }
+  updateDisplayedLogs(paginationData: { itemsPerPage: number; page: number }) {
+    const { itemsPerPage, page } = paginationData;
 
-  // Return grouped log keys for display
-  getGroupedLogKeys(): string[] {
-    return Object.keys(this.groupedLogs);
-  }
-
-  // Toggle collapse for a date group
-  onToggleCollapse(date: string) {
-    this.groupedLogs[date].forEach(log => {
-      log.isCollapsed = !log.isCollapsed;
-    });
-  }
-
-  // Update displayed logs based on pagination
-  updateDisplayedLogs(paginationModel: PaginationModel) {
-    const itemsPerPage = parseInt(paginationModel.itemsPerPage, 10);
-    const startIndex = (paginationModel.page - 1) * itemsPerPage;
+    // Calculate start and end indices
+    const startIndex = (page - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
-    // Flatten grouped logs into a single array
-    const allLogs = Object.values(this.groupedLogs).reduce((acc, val) => acc.concat(val), []);
+    // Slice logs for pagination
+    const paginatedLogs = this.sftpConfigurationLogs.slice(startIndex, endIndex);
 
-    // Slice logs for the current page
-    const paginatedLogs = allLogs.slice(startIndex, endIndex);
-
-    // Regroup paginated logs by date
+    // Group paginated logs by date
     this.displayedLogs = paginatedLogs.reduce((groups, log) => {
       const date = log.jobDateTime.toISOString().split('T')[0];
       if (!groups[date]) {
@@ -104,40 +61,30 @@ export class ClientSftpConfigLogComponent implements OnInit, OnDestroy {
     }, {});
   }
 
-  // Update log status based on checkbox
+  getDisplayedLogKeys(): string[] {
+    return Object.keys(this.displayedLogs);
+  }
+
+  onToggleCollapse(date: string) {
+    this.displayedLogs[date].forEach((log) => {
+      log.isCollapsed = !log.isCollapsed;
+    });
+  }
+
   updateStatus(log: SftpConfigurationLogResponse) {
     log.status = log.initiate ? 'Initiated' : 'Created';
   }
 
   ngOnDestroy() {
-    this.subscriptions.forEach(subscription => subscription.unsubscribe());
+    this.subscriptions.forEach((subscription: Subscription) => subscription.unsubscribe());
   }
 }
-
-
-<div *ngFor="let date of getGroupedLogKeys()" class="log-group">
-    <h5 class="date-header" (click)="onToggleCollapse(date)">
-      {{ date }}
-      <button class="btn btn-link">
-        {{ groupedLogs[date][0]?.isCollapsed ? 'Expand' : 'Collapse' }}
-      </button>
-    </h5>
-
-    <div
-      *ngIf="!groupedLogs[date][0]?.isCollapsed"
-      class="log-details"
-    >
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th>Order ID</th>
-            <th>Work Order ID</th>
-            <th>Document Type</th>
-            <th>Document Name</th>
-            <th>Subfolder</th>
-            <th>Status</th>
-            <th>Initiate</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let log of groupedLogs[date]">
+ <ng-container *ngFor="let date of getDisplayedLogKeys()">
+        <tr>
+          <td colspan="8" class="icon-folder-group">
+            <span class="icon-folder-group"></span>
+            <label (click)="onToggleCollapse(date)">
+              {{ date }} ({{ displayedLogs[date].length }} items)
+            </label>
+          </td>
+        </tr>
