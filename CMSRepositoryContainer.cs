@@ -1,5 +1,64 @@
 [
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 19,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -412,6 +471,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 73,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -454,6 +572,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 84,
     "eRecordingVendorTurnDays": 4,
     "vendor": [
@@ -499,6 +676,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 91,
     "eRecordingVendorTurnDays": 4,
     "vendor": [
@@ -539,6 +775,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 178,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -570,6 +865,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 101,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -600,6 +954,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 92,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -644,6 +1057,65 @@
     }
 },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 90,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -674,6 +1146,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 85,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -704,6 +1235,65 @@
         }
   },
   {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 59,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -782,6 +1372,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 82,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -813,6 +1462,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 51,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -879,8 +1587,66 @@
                 }
             ]
     }
-},
-{
+},{
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 21,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -1233,6 +1999,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 18,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -1603,6 +2428,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 30,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -1956,6 +2840,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 26,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -2369,6 +3312,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 31,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -2717,6 +3719,65 @@
     }
 },
 {
+"cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 27,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -3085,6 +4146,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 23,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -3339,6 +4459,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 29,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -3730,6 +4909,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 24,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -4066,6 +5304,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 36,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -4303,6 +5600,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 20,
     "eRecordingVendorTurnDays": 4,
     "statesIncluded": [
@@ -4632,6 +5988,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 28,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -4821,6 +6236,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 25,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5002,6 +6476,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 12,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5047,6 +6580,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 56,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5100,6 +6692,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 14,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5157,6 +6808,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 34,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5298,6 +7008,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 35,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5427,6 +7196,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 16,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5540,6 +7368,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 22,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5717,6 +7604,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 71,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5752,8 +7698,66 @@
             }
         ]
     }
-},
-{
+},{
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 32,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -5939,6 +7943,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 37,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6048,6 +8111,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 33,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6197,6 +8319,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 15,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6294,6 +8475,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 53,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6359,6 +8599,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 13,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6428,6 +8727,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 39,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6541,6 +8899,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 38,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6646,6 +9063,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 40,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6759,6 +9235,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 61,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6788,6 +9323,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 46,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6849,6 +9443,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 48,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6894,6 +9547,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 44,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6963,6 +9675,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 62,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -6996,6 +9767,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 17,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7157,6 +9987,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 42,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7258,6 +10147,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 52,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7327,6 +10275,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 63,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7360,6 +10367,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 54,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7413,6 +10479,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 43,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7490,6 +10615,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 41,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7579,6 +10763,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 45,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7660,6 +10903,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 47,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7729,6 +11031,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 67,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7766,6 +11127,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 255,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7795,6 +11215,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 278,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7824,6 +11303,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 231,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7853,6 +11391,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 238,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7882,6 +11479,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 159,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7911,6 +11567,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 58,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7948,6 +11663,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 78,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -7977,6 +11751,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 60,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8018,6 +11851,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 55,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8067,6 +11959,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 81,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8096,6 +12047,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 66,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8137,6 +12147,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 68,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8166,6 +12235,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 57,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8199,6 +12327,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 86,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8228,6 +12415,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 127,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8257,6 +12503,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 219,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8286,6 +12591,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 64,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8315,6 +12679,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 99,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8344,6 +12767,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 70,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8377,6 +12859,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 138,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8406,6 +12947,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 80,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8439,6 +13039,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 79,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8468,6 +13127,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 65,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8497,6 +13215,65 @@
     }
 },
 {
+  "cosmosDocType": "RecordingETARule",
+  "underwriterAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "underwritersIncluded": [],
+    "underwritersExcluded": [
+      -1
+    ]
+  },
+  "policyCategoryTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "policyCategoryTypesExcluded": [
+      -1
+    ]
+  },
+  "partitionKey": "RecordingETARule",
+  "isActive": true,
+  "isStatus": false,
+  "divisionId": 1,
+  "ruleStartDate": "2025-03-18T10:04:00Z",
+  "productAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "productsIncluded": [],
+    "productsExcluded": [
+      -1
+    ]
+  },
+  "transactionTypeAssociation": {
+    "includeAll": true,
+    "includeAssociation": true,
+    "transactionTypesIncluded": [],
+    "transactionTypesExcluded": [
+      -1
+    ]
+  },
+  "tenant": {
+    "masterClient": 0,
+    "subClient": 0,
+    "vendor": 0,
+    "subContractor": 0,
+    "servicerGroup": -1,
+    "servicerIds": [
+      30
+    ],
+    "lineofBusinessid": [
+      3,
+      5,
+      9
+    ]
+  },
+  "audit": {
+    "isDeleted": false,
+    "createdDate": "2025-03-18T11:45:57.5721822+00:00",
+    "createdBy": "1100040548_User",
+    "lastUpdatedDate": "2025-03-18T06:05:49.6377741+00:00",
+    "lastUpdatedBy": "1100040548_User"
+  },
     "recordingVendorTurnDays": 111,
     "eRecordingVendorTurnDays": 4,
     "vendor": [],
@@ -8524,97 +13301,5 @@
             }
         ]
     }
-},
-
-
-{
-  "cosmosDocType": "RecordingETARule",
-  "underwriterAssociation": {
-    "includeAll": true,
-    "includeAssociation": true,
-    "underwritersIncluded": [],
-    "underwritersExcluded": [
-      -1
-    ]
-  },
-  "policyCategoryTypeAssociation": {
-    "includeAll": true,
-    "includeAssociation": true,
-    "policyCategoryTypesExcluded": [
-      -1
-    ]
-  },
-  "policyTypeCode": "MMG",
-  "policyTypeName": "Mortgage Modification Guarantee",
-  "partitionKey": "RecordingETARule",
-  "isActive": true,
-  "isStatus": false,
-  "ruleId": 1000761,
-  "ruleName": "jhhj",
-  "changeRequestorName": "kjh",
-  "changeComments": "ju",
-  "divisionId": 1,
-  "ruleStartDate": "2025-03-12T10:04:00Z",
-  "locationAssociation": {
-    "includeAll": true,
-    "includeAssociation": true,
-    "statesIncluded": [
-      {
-        "stateCode": "AK",
-        "counties": [
-          "SITKA"
-        ]
-      }
-    ],
-    "statesExcluded": [
-      {
-        "stateCode": "",
-        "counties": []
-      }
-    ]
-  },
-  "productAssociation": {
-    "includeAll": true,
-    "includeAssociation": true,
-    "productsIncluded": [],
-    "productsExcluded": [
-      -1
-    ]
-  },
-  "transactionTypeAssociation": {
-    "includeAll": true,
-    "includeAssociation": true,
-    "transactionTypesIncluded": [],
-    "transactionTypesExcluded": [
-      -1
-    ]
-  },
-  "recordingVendorTurnDays": 19,
-  "eRecordingVendorTurnDays": 4,
-  "vendor": [
-    3633262
-  ],
-  "tenant": {
-    "masterClient": 0,
-    "subClient": 0,
-    "vendor": 0,
-    "subContractor": 0,
-    "servicerGroup": -1,
-    "servicerIds": [
-      30
-    ],
-    "lineofBusinessid": [
-      3,
-      5,
-      9
-    ]
-  },
-  "audit": {
-    "isDeleted": false,
-    "createdDate": "2025-03-12T11:45:57.5721822+00:00",
-    "createdBy": "1100040548_User",
-    "lastUpdatedDate": "2025-03-12T06:05:49.6377741+00:00",
-    "lastUpdatedBy": "1100040548_User"
-  }
 }
 ]
